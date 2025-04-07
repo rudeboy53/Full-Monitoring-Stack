@@ -25,6 +25,9 @@ services:
     command: -config.file=/etc/loki/loki-config.yaml
     volumes:
       - ./loki/loki-config.yaml:/etc/loki/loki-config.yaml
+      - ./loki/data/chunks:/loki/chunks
+      - ./loki/data/index:/loki/index
+      - ./loki/data/index_cache:/loki/index_cache
 
   promtail:
     image: grafana/promtail:2.9.4
