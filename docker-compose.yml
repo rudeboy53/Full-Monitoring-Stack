@@ -28,6 +28,7 @@ services:
       - ./loki/data/chunks:/loki/chunks
       - ./loki/data/index:/loki/index
       - ./loki/data/index_cache:/loki/index_cache
+      - ./loki/data/wal:/wal
 
   promtail:
     image: grafana/promtail:2.9.4
