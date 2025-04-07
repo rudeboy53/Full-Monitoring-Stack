@@ -13,7 +13,6 @@ services:
     image: prom/node-exporter:latest
     container_name: node_exporter
     restart: unless-stopped
-    network_mode: host
     pid: host
     volumes:
       - /proc:/host/proc:ro
@@ -23,8 +22,6 @@ services:
       - '--path.procfs=/host/proc'
       - '--path.sysfs=/host/sys'
       - '--path.rootfs=/rootfs'
-
-
 
   loki:
     image: grafana/loki:2.9.4
