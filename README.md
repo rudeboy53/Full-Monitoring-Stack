@@ -1,6 +1,6 @@
 # 🚀 Full Monitoring Stack (Grafana + Prometheus + Loki + Promtail + Node Exporter)
 
-![Grafana Ekran Görüntüsü](https://raw.githubusercontent.com/rudeboy53/Full-Monitoring-Stack/screenshots/grafana-dashboard.png)
+![Grafana Ekran Görüntüsü](https://raw.githubusercontent.com/rudeboy53/Full-Monitoring-Stack/refs/heads/main/screenshots/grafana-dashboard.png)
 
 Docker Compose ile hazırlanmış güçlü, hafif ve genişletilebilir bir izleme altyapısı. Tüm sistem içgörüsünü (loglar, metrikler, paneller) tek yerden sunar. Geliştiriciler, sistem yöneticileri ve DevOps mühendisleri için birebir.
 
